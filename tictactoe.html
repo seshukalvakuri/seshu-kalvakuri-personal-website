@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Seshu Kalvakuri Personal Website</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="./CSS/style.css">
+        <title>TicTacToe</title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./game.css">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="index.html">Home</a>
+            <a class="navbar-brand" href="coffee.html">Coffee</a>
+            <a class="navbar-brand" href="contact.html">Contact Us</a>
+            <a class="navbar-brand" href="tictactoe.html">Tic Tac Toe</a>
+          </div>
+        </div>
+      </nav>
+    
+  <header>
+    <h1>Tic Tac Toe</h1>
+  </header>
+  <main>
+    <section id="upper-left"> </section>
+    <section id="upper-mid"> </section>
+    <section id="upper-right"> </section>
+
+    <section id="center-left"> </section>
+    <section id="center-mid"> </section>
+    <section id="center-right"> </section>
+
+    <section id="lower-left"> </section>
+    <section id="lower-mid"> </section>
+    <section id="lower-right"> </section>
+  </main>
+  <aside>
+    <h1>Specification</h1>
+    <section>
+      <ul>
+        <li>Uses full-width header and footer.</li>
+        <li>Uses main 3 x 3 css grid, each with a section.</li>
+        <li>When user clicks a childless section, it adds an X.</li>
+        <li>If the move was valid, it selects a section for the computer and adds an O.</li>
+      </ul>
+      <ol>
+        <li>Improve the computer's selection algorithm.</li>
+        <li>Add an algorithm to check for a winner.</li>
+        <li>If winner, announce the winner and end the game.</li>
+        <li>Add "Play again?" button to clear the board.</li>
+        <li>Combine AddX and AddO into a single function.</li>
+      </ol>
+    </section>
+  </aside>
+  <footer>
+    <h4>
+      <span>&copy Professor Case 2018</span>
+      <span>&diams;</span>
+      <a href="https://github.com/profcase/web-tic-tac-toe">Source</a>
+      <span>&diams;</span>
+      <a href="https://profcase.github.io/web-tic-tac-toe/">Demo</a>
+    </h4>
+
+  </footer>
+  <script src="./game.js" defer></script>
+
+</body>
+
+</html>
